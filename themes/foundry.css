@@ -1,0 +1,9 @@
+/* Foundry — oxidised brass on warm black, vermilion accent.
+   Editorial and slightly antique. Good for content systems, publishing, anything with a voice. */
+:root{
+  --ground:#0F0D0B; --floor:#1B1713; --plate:#15120F; --plate2:#1A1612;
+  --brass:#C8A24A; --parch:#EAE0CB; --stone:#8B8172; --dim:#5E564B;
+  --coral:#E2542F; --rule:#2A241D;
+  --serif:'Iowan Old Style',Georgia,'Times New Roman',serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}

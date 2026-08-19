@@ -1,0 +1,9 @@
+/* Shopfloor — cool slate with safety orange, sans-serif chrome.
+   Industrial and legible under fluorescent light. Good for logistics, commerce, operations. */
+:root{
+  --ground:#0B1015; --floor:#161F27; --plate:#111920; --plate2:#16202A;
+  --brass:#5E7C8C; --parch:#DCE4EA; --stone:#7C8B96; --dim:#53626D;
+  --coral:#FF6A2B; --rule:#1E2A33;
+  --serif:'Avenir Next','Segoe UI',system-ui,sans-serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}

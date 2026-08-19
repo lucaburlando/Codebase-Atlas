@@ -1,0 +1,5 @@
+*.html.bak
+atlas.html
+shot-*.png
+.DS_Store
+__pycache__/

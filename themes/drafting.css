@@ -1,0 +1,11 @@
+/* Drafting — ink on paper, the only light theme. Graphite lines, deep teal accent.
+   Reads like an engineering drawing. Good for documents, compilers, anything precise.
+   Note: lane colours in your data file were probably chosen against a dark ground.
+   On paper they render as pale tints, which is usually what you want. */
+:root{
+  --ground:#EDE8DE; --floor:#DFD8C9; --plate:#F5F1E8; --plate2:#E6E0D3;
+  --brass:#6E6759; --parch:#1F1E1B; --stone:#5F5A50; --dim:#8C8577;
+  --coral:#0F6D68; --rule:#D2C9B9;
+  --serif:'Iowan Old Style',Georgia,'Times New Roman',serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+}
