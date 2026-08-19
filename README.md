@@ -9,8 +9,8 @@ Built for the person who has to understand a system without reading it: a produc
 a new joiner, a founder explaining their own stack to somebody else.
 
 Screenshots of the bundled example — a fictional bookshop, from search box to doorstep —
-are in [`docs/`](docs), one per theme. Start with
-[`screenshot-theme-observatory-default.png`](docs/screenshot-theme-observatory-default.png).
+are in [`screenshots/`](screenshots), one per theme. Start with
+[`theme-foundry-default.png`](screenshots/theme-foundry-default.png).
 
 ## What makes it different from a diagram
 
@@ -65,18 +65,17 @@ journey steps naming an edge that was never declared, missing copy, labels too l
 
 ## Themes
 
-Four are bundled. Pass one to the build, or write your own — a theme is ten lines.
+Two are bundled. Foundry is the built-in default; pass a theme file to use the other one,
+or write your own — a theme is ten lines.
 
 ```bash
-python3 scripts/build.py atlas.data.js atlas.html themes/foundry.css
+python3 scripts/build.py atlas.data.js atlas.html themes/drafting.css
 ```
 
 | Theme | Look | Fits | Screenshot |
 |---|---|---|---|
-| **Observatory** *(default)* | petrol ground, steel drawing lines, signal gold | pipelines, schedulers, nocturnal systems | [`docs/screenshot-theme-observatory-default.png`](docs/screenshot-theme-observatory-default.png) |
-| **Foundry** | oxidised brass on warm black, vermilion | content systems, publishing, anything with a voice | [`docs/screenshot-theme-foundry.png`](docs/screenshot-theme-foundry.png) |
-| **Shopfloor** | cool slate, safety orange, sans chrome | logistics, commerce, operations | [`docs/screenshot-theme-shopfloor.png`](docs/screenshot-theme-shopfloor.png) |
-| **Drafting** | ink on paper, graphite, deep teal (light) | documents, compilers, anything precise | [`docs/screenshot-theme-drafting-light.png`](docs/screenshot-theme-drafting-light.png) |
+| **Foundry** *(default)* | oxidised brass on warm black, vermilion accent | pipelines, content systems, anything with a voice | [`screenshots/theme-foundry-default.png`](screenshots/theme-foundry-default.png) |
+| **Drafting** | ink on paper, graphite lines, deep teal accent — the light one | documents, compilers, anything precise | [`screenshots/theme-drafting-light.png`](screenshots/theme-drafting-light.png) |
 
 The canvas reads the same CSS tokens as the page, so the drawing follows the theme instead
 of staying in the default palette.
@@ -106,8 +105,9 @@ scripts/validate.js         correctness check
 scripts/build.py            engine + data + theme -> one file
 scripts/shoot.sh            headless screenshots, no installs
 reference/                  schema · copy · layout · theme · traps
-themes/                     four ready-made looks
+themes/                     two ready-made looks
 examples/order-flow.*       a complete worked example
+screenshots/                one per theme
 ```
 
 ## Honest limitations

@@ -2,7 +2,7 @@
    Northgate is a fictional online bookshop. Every path, line count and vendor below is
    invented, so that no real system is disclosed. When you build an atlas for a real
    repository, every one of these numbers must come from `wc -l` and every path must exist.
-   Build it:  python3 ../scripts/build.py order-flow.data.js atlas.html ../themes/shopfloor.css */
+   Build it:  python3 ../scripts/build.py order-flow.data.js atlas.html ../themes/drafting.css */
 
 const META={
   title:'Northgate Order Flow',

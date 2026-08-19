@@ -4,14 +4,14 @@
 
 ```css
 :root{
-  --ground:#0B1014; --floor:#151E25; --plate:#101820;   /* page, floor grid, panels */
-  --brass:#6A8296; --parch:#E7E4DC; --stone:#8996A2;    /* drawn lines, text, muted text */
-  --dim:#57646E; --coral:#E3B341; --rule:#1F2B34;       /* faint text, the accent, borders */
+  --ground:#0F0D0B; --floor:#1B1713; --plate:#15120F;   /* page, floor grid, panels */
+  --brass:#C8A24A; --parch:#EAE0CB; --stone:#8B8172;    /* drawn lines, text, muted text */
+  --dim:#5E564B; --coral:#E2542F; --rule:#2A241D;       /* faint text, the accent, borders */
   --serif:'Iowan Old Style',Georgia,serif;              /* display + panel prose */
   --mono:ui-monospace,'SF Mono',Menlo,monospace;        /* all chrome, labels, data */
 }
 ```
-Those are the defaults (a petrol ground with steel drawing lines and one signal-gold accent).
+Those are the defaults (warm black ground, brass drawing lines, one vermilion accent).
 Your `theme.css` only needs the tokens you want to change.
 Lane colours live in `G[lane].c` in the data file, not here.
 
@@ -19,10 +19,10 @@ Lane colours live in `G[lane].c` in the data file, not here.
 
 | File | Register | Fits |
 |---|---|---|
-| `themes/observatory.css` | petrol ground, steel lines, signal gold (default) | pipelines, schedulers, nocturnal systems |
-| `themes/foundry.css` | oxidised brass on warm black, vermilion | content systems, publishing, anything with a voice |
-| `themes/shopfloor.css` | cool slate, safety orange, sans chrome | logistics, commerce, operations |
-| `themes/drafting.css` | ink on paper, graphite, deep teal (light) | documents, compilers, anything precise |
+| `themes/foundry.css` | oxidised brass on warm black, vermilion (the built-in default) | pipelines, content systems, anything with a voice |
+| `themes/drafting.css` | ink on paper, graphite, deep teal (the light one) | documents, compilers, anything precise |
+
+Anything else is ten lines of your own.
 
 ## Choosing
 

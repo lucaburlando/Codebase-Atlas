@@ -1,9 +1,0 @@
-/* Observatory — the built-in default. Petrol ground, steel drawing lines, signal gold.
-   Reads like an instrument panel at night. Good for pipelines, schedulers, anything nocturnal. */
-:root{
-  --ground:#0B1014; --floor:#151E25; --plate:#101820; --plate2:#17212A;
-  --brass:#6A8296; --parch:#E7E4DC; --stone:#8996A2; --dim:#57646E;
-  --coral:#E3B341; --rule:#1F2B34;
-  --serif:'Iowan Old Style',Georgia,'Times New Roman',serif;
-  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
-}
